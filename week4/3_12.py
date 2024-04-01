@@ -28,7 +28,7 @@ cone_volume = 1 / 3 * pi * cone_radius * cone_radius * cone_height # 원뿔 부�
 print(f'반지름과 높이가 각각 10, 15인 원뿔의 부피의 근사값 : {cone_volume}') # 정육면체 부피 출력
 
 # 5. 반지름이 25인 구 부피
-sphere_radius = 10 # 구 반지름
+sphere_radius = 25 # 구 반지름
 sphere_volume = 4 / 3 * pi * sphere_radius * sphere_radius * sphere_radius # 구 부피 계산
 print(f'반지름이 25인 구 부피의 근사값 : {sphere_volume}') # 구 부피 출력
 
@@ -44,7 +44,7 @@ cone_height = 15 # 원뿔 높이
 cone_volume = 1 / 3 * math.pi * cone_radius * cone_radius * cone_height # 원뿔 부피 계산
 print(f'math.pi 값을 이용한 반지름과 높이가 각각 10, 15인 원뿔의 부피의 근사값 : {cone_volume}') # 정육면체 부피 출력
 
-sphere_radius = 10 # 구 반지름
+sphere_radius = 25 # 구 반지름
 sphere_volume = 4 / 3 * math.pi * sphere_radius * sphere_radius * sphere_radius # 구 부피 계산
 print(f'math.pi 값을 이용한 반지름이 25인 구 부피의 근사값 : {sphere_volume}') # 구 부피 출력
 
