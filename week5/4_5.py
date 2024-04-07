@@ -8,7 +8,7 @@ user1 = int(user1)
 user2 = int(user2)
 user3 = int(user3)
 
-# 랜덤 복권 번호 3개 입력 받기
+# 랜덤 복권 번호 3개 입력 받기(int형)
 rand1 = random.randint(0, 9)
 rand2 = random.randint(0, 9)
 rand3 = random.randint(0, 9)
