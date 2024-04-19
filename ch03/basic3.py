@@ -55,7 +55,7 @@ num3 = 10     # immutable
 m = [1, 2, 3] # mutable
 
 def varChange(num3, m):
-    num3 = num3 + 1
+    num3 = num3 + 1 ## 함수 안에서 immutable한 값 변경 불가능
     m.append(0) ## 리스트에 0 추가
 
 varChange(num3, m)
@@ -65,7 +65,7 @@ print(num3, m) # 10 [1, 2, 3, 0] 출력. num3는 immutable이기 때문
 
 num4 = 10
 def varTest():
-    # global num5
+    # global num4
     num5 = 100
     global num4
     num4 = 100
