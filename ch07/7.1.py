@@ -1,5 +1,5 @@
 black_pink = ['Jennie', 'Rose', 'Lisa', 'Jisoo']
 
-'Jennie' in black_pink
+print('Jennie' in black_pink)
 
-'Psy' in black_pink
+print('Psy' in black_pink)
