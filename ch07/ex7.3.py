@@ -14,3 +14,6 @@ print(s[7:9])
 
 print(sorted('FADEWAY', reverse=True))
 print(s[-1:-3:-1])
+
+a = ['welcome', 'to', 'the', 'python', 'world']
+print(a[0])
