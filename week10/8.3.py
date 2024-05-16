@@ -12,6 +12,7 @@ for item in student_tup:
 print('학생의 정보 목록')
 for key, value in student_dict.items():
     print(f"{{'{key}' : ['{value[0]}', '{value[1]}']}}")
+print('')
 
 # (2) 학생의 학번을 입력으로 받아 이름과 전화번호 출력하는 학사 정보 프로그램
 student_id = input('학번을 입력하시오 : ')

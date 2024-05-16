@@ -1,5 +1,6 @@
 # 7.3 두 개의 리스트를 사용해 모든 조합을 생성하여 출력
 
+# 리스트 2개 생성
 list1 = ['I like', 'I love']
 list2 = ['pancakes.', 'kiwi juice.', 'espresso.']
 
