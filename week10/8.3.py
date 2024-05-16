@@ -8,4 +8,12 @@ student_dict = {} # 빈 딕셔너리 생성
 for item in student_tup:
     student_dict[item[0]] = [item[1], item[2]]
 
-print(student_dict)
+# 딕셔너리 출력
+print('학생의 정보 목록')
+for key, value in student_dict.items():
+    print(f"{{'{key}' : ['{value[0]}', '{value[1]}']}}")
+
+# (2) 학생의 학번을 입력으로 받아 이름과 전화번호 출력하는 학사 정보 프로그램
+student_id = input('학번을 입력하시오 : ')
+print(f'이름 : {student_dict[student_id][0]}')
+print(f'연락처 : {student_dict[student_id][1]}')
