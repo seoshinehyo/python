@@ -1,7 +1,7 @@
 # from wordcloud import WordCloud
 # import matplotlib.pyplot as plt
 
-# f = open('a.txt', 'r')
+# f = open('a.txt', 'r')   왜 안 되지??
 # s = f.read()
 # print(s)
 
