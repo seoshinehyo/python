@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 # 파일 경로를 절대 경로로 지정
 file_path = 'C:/Users/82105/Desktop/SSH/3-1/python/python/ch08/a.txt'
 
-# 파일 열기를 with 문으로 변경하여 자동으로 닫히게 처리
+# 파일 열기를 with 문으로 변경하여 자동으로 닫히게 처리, with 써서 파일 열기
 with open(file_path, 'r', encoding='utf-8') as f:
     s = f.read()
     print(s)
