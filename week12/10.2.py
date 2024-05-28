@@ -36,5 +36,5 @@ print(n_arr6)
 print()
 
 # (7) n_arr 슬라이싱 적용 후, reshape() 적용하여 배열 생성
-n_arr7 = n_arr[:2, :]
-print(n_arr7.reshape(5, 2))
+n_arr7 = n_arr[:2, :]       # 슬라이싱 먼저 해주기
+print(n_arr7.reshape(5, 2)) # reshape() 사용해 배열의 차원과 형태 변경
