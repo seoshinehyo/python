@@ -13,6 +13,11 @@
 # plt.show()
 # f.close()
 
+# f = open('a.txt', 'r')
+# r = f.read()
+# f.close()
+
+
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
