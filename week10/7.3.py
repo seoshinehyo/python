@@ -10,3 +10,5 @@ print(list1[0], list2[2]) # I like espresso.
 print(list1[1], list2[0]) # I love pancakes.
 print(list1[1], list2[1]) # I love kiwi juice.
 print(list1[1], list2[2]) # I love espresso.
+
+print(list1[0] + ' ' +  list2[0])
