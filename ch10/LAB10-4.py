@@ -12,3 +12,5 @@ print(f'z shape : {z.shape}')
 print(f'z values : {z}')
 print('BMI data')
 print(x[1] / (x[0]**2))
+
+print(np.arange(5))
